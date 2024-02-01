@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://dra3y4brwyoem"]
+
+[ext_resource type="PackedScene" uid="uid://svj7fkjnjswe" path="res://scenes/level_1.tscn" id="1_7uj3i"]
+[ext_resource type="PackedScene" uid="uid://dgxknwgp0k13d" path="res://scenes/player.tscn" id="2_rcewj"]
+
+[sub_resource type="Environment" id="Environment_qgwg1"]
+reflected_light_source = 2
+sdfgi_enabled = true
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54m2q"]
+
+[node name="Level" type="Node3D"]
+
+[node name="level1" parent="." instance=ExtResource("1_7uj3i")]
+
+[node name="Player" parent="." instance=ExtResource("2_rcewj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -45.6277, 2.0408, 6.60934)
+
+[node name="Camera3D" type="Camera3D" parent="Player"]
+transform = Transform3D(1, 0, 0, 0, 0.928486, 0.371368, 0, -0.371368, 0.928486, 0.930824, 2.17881, 11.0964)
+fov = 83.2
+size = 0.065
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.971961, 0.235142, 0, -0.235142, 0.971961, 0, 0, 0)
+light_angular_distance = 0.5
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_qgwg1")
+camera_attributes = SubResource("CameraAttributesPractical_54m2q")
