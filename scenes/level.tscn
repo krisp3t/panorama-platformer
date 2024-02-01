@@ -5,7 +5,6 @@
 
 [sub_resource type="Environment" id="Environment_qgwg1"]
 reflected_light_source = 2
-sdfgi_enabled = true
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_54m2q"]
 
