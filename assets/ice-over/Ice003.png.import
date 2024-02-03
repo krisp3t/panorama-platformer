@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://doq6ruefsdqst"
-path="res://.godot/imported/neg-z.jpg-5d4dbaaf16cc9d80abf44c0125bcb622.ctex"
+uid="uid://om2hwh24qetw"
+path="res://.godot/imported/Ice003.png-e473e299be37b58c0ef5f3a1b1280188.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://models/level1/background/neg-z.jpg"
-dest_files=["res://.godot/imported/neg-z.jpg-5d4dbaaf16cc9d80abf44c0125bcb622.ctex"]
+source_file="res://assets/ice-over/Ice003.png"
+dest_files=["res://.godot/imported/Ice003.png-e473e299be37b58c0ef5f3a1b1280188.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b4hrfqt0e2yv7"
-path="res://.godot/imported/neg-x.jpg-d02d7f01c518052b4147d01b952bfb0c.ctex"
+uid="uid://dlptprxxnmjv3"
+path="res://.godot/imported/pos-y.jpg-b0d7f8132a92678dcffaddce3e39537d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://models/level2/background/neg-x.jpg"
-dest_files=["res://.godot/imported/neg-x.jpg-d02d7f01c518052b4147d01b952bfb0c.ctex"]
+source_file="res://assets/level1/background/pos-y.jpg"
+dest_files=["res://.godot/imported/pos-y.jpg-b0d7f8132a92678dcffaddce3e39537d.ctex"]
 
 [params]
 

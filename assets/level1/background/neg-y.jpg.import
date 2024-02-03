@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7p6kaiv6qee6"
-path="res://.godot/imported/neg-z.jpg-7c87295461a37fa6910c2ed27d76a363.ctex"
+uid="uid://c8x50ljh0a08k"
+path="res://.godot/imported/neg-y.jpg-0f2a3d76988933419f9d3d795efee81f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://models/level2/background/neg-z.jpg"
-dest_files=["res://.godot/imported/neg-z.jpg-7c87295461a37fa6910c2ed27d76a363.ctex"]
+source_file="res://assets/level1/background/neg-y.jpg"
+dest_files=["res://.godot/imported/neg-y.jpg-0f2a3d76988933419f9d3d795efee81f.ctex"]
 
 [params]
 
